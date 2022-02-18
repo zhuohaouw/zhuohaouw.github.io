@@ -5,7 +5,7 @@
   # recording:
   image: collabally.png
   article: https://dl.acm.org/doi/10.1145/3495270
-  description: "Making collaborative document editing accessible for screen reader users."
+  description: "Making collaborative document editing accessible for screen reader users by centralizing scattered information, sonifying visual information, and simplifying complex operations."
   paper: https://www.zhuohaozhang.com
   demo: https://dl.acm.org/doi/10.1145/3441852.3476562
   highlight: 1
@@ -38,7 +38,7 @@
   # recording: https://developer.apple.com/videos/play/wwdc2021/10122/
   image: talkit.png
   article: https://equalentry.com/interactive-3d-printed-models-for-students-with-visual-impairments-accessibility-nyc-meetup-recap/
-  description: "Interactive 3D printed models with a mobile App designed as learning materials for students with visual impairments."
+  description: "Interactive 3D printed models with a mobile App and computer vision technology designed as learning materials for students with visual impairments."
   demo: https://dl.acm.org/doi/10.1145/3234695.3241004
   paper: https://dl.acm.org/doi/10.1145/3290605.3300427
   highlight: 4

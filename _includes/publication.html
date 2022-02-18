@@ -36,75 +36,75 @@
   {% if pub.link or pub.pdf or pub.video or pub.blog or pub.slides or pub.doi %}
     <div class="extra-links">
     {% if pub.pdf %}
-      <a href="{{ pub.pdf }}">
+      <a href="{{ pub.pdf }}"  target="_blank">
         <i class="far fa-file-pdf" aria-hidden="true" aria-hidden="true"></i> PDF
       </a>
     {% endif %}
     {% if pub.link %}
-      <a href="{{ pub.link }}">
+      <a href="{{ pub.link }}"  target="_blank">
         <i class="fas fa-link" aria-hidden="true" aria-hidden="true"></i> Project
       </a>
     {% endif %}
     {% if pub.html %}
-      <a href="{{ pub.html }}">
+      <a href="{{ pub.html }}"  target="_blank">
         <i class="fab fa-html5" aria-hidden="true" aria-hidden="true"></i> HTML
       </a>
     {% elsif pub.arxiv %}
-      <a href="https://ar5iv.org/html/{{ pub.arxiv | cgi_escape }}">
+      <a href="https://ar5iv.org/html/{{ pub.arxiv | cgi_escape }}"  target="_blank">
         <i class="fab fa-html5" aria-hidden="true" aria-hidden="true"></i> HTML
       </a>
     {% endif %}
     {% if pub.blog %}
-      <a href="{{ pub.blog }}">
+      <a href="{{ pub.blog }}"  target="_blank">
         <i class="fas fa-newspaper" aria-hidden="true" aria-hidden="true"></i> Article
       </a>
     {% endif %}
     {% if pub.video %}
-      <a href="{{ pub.video }}">
+      <a href="{{ pub.video }}" target="_blank">
         <i class="fas fa-film" aria-hidden="true" aria-hidden="true"></i> Video
       </a>
     {% endif %}
     {% if pub.recording %}
-      <a href="{{ pub.recording }}">
+      <a href="{{ pub.recording }}" target="_blank">
         <i class="fas fa-video" aria-hidden="true" aria-hidden="true"></i> Recording
       </a>
     {% endif %}
     {% if pub.slides %}
-      <a href="{{ pub.slides }}">
+      <a href="{{ pub.slides }}" target="_blank">
         <i class="fas fa-window-maximize" aria-hidden="true" aria-hidden="true"></i> Slides
       </a>
     {% endif %}
     {% if pub.doi %}
-      <a href="https://www.doi2bib.org/bib/{{ pub.doi }}">
+      <a href="https://www.doi2bib.org/bib/{{ pub.doi }}" target="_blank">
         <i class="fas fa-book" aria-hidden="true" aria-hidden="true"></i> Bibtex
       </a>
     {% elsif pub.arxiv %}
-      <a href="https://arxiv2bibtex.org/?q={{ pub.arxiv | cgi_escape }}">
+      <a href="https://arxiv2bibtex.org/?q={{ pub.arxiv | cgi_escape }}" target="_blank">
         <i class="fas fa-book" aria-hidden="true" aria-hidden="true"></i> Bibtex
       </a>
     {% endif %}
     {% if pub.short_doi %}
-      <a href="http://doi.org/{{ pub.short_doi }}">
+      <a href="http://doi.org/{{ pub.short_doi }}" target="_blank">
         <i class="fas fa-anchor" aria-hidden="true" aria-hidden="true"></i> DOI: {{ pub.short_doi }}
       </a>
     {% endif %}
     {% if pub.arxiv %}
-      <a href="https://arxiv.org/abs/{{ pub.arxiv }}">
+      <a href="https://arxiv.org/abs/{{ pub.arxiv }}" target="_blank">
         <i class="fas fa-archive" aria-hidden="true" aria-hidden="true"></i> arXiv: {{ pub.arxiv }}
       </a>
     {% endif %}
     {% if pub.poster %}
-      <a href="{{ pub.poster }}">
+      <a href="{{ pub.poster }}" target="_blank">
         <i class="fas fa-file-powerpoint" aria-hidden="true" aria-hidden="true"></i> Poster
       </a>
     {% endif %}
     {% if pub.slide %}
-      <a href="{{ pub.slide }}">
+      <a href="{{ pub.slide }}" target="_blank">
         <i class="fas fa-file-powerpoint" aria-hidden="true" aria-hidden="true"></i> Slides
       </a>
     {% endif %}
     {% if pub.osf %}
-      <a href="https://osf.io/{{ pub.osf }}">
+      <a href="https://osf.io/{{ pub.osf }}" target="_blank">
         <i class="fas fa-archive" aria-hidden="true" aria-hidden="true"></i> OSF: {{ pub.osf }}
       </a>
     {% endif %}
