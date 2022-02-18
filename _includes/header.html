@@ -1,0 +1,17 @@
+{% assign current = page.url | downcase | split: '/' %}
+<header class="page-header">
+  <nav class="container">
+    <a class="site-title" href="{{ absolute_url }}/">{{ site.title }}</a>
+
+    <a href="{{ '/projects/' | relative_url }}" {% if current[1] == 'projects' %}aria-current="page" {% endif %}>Projects</a>
+    <a href="{{ '/publications/' | relative_url }}" {% if current[1] == 'publications' %}aria-current="page"{% endif %}>Publications</a>
+    <a href="/ZhuohaoZhang-CV.pdf">CV</a>
+
+    <span class="external">
+      <a href="https://twitter.com/ZhuohaoZhang"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter</a>
+      <a href="https://www.linkedin.com/in/zhuohao-zhang-08656510a/"><i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+      <a href="https://github.com/zhuohaouw"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a>
+
+    </span>
+  </nav>
+</header>
