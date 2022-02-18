@@ -23,6 +23,7 @@ I am interested in integrating human intellect to solve real-world accessibility
 
 {:.no-list}
 * <i class="fas fa-envelope" aria-hidden="true"></i> zhuohao [at] uw.edu
+* <i class="fab fa-twitter" aria-hidden="true"></i> <a href="https://twitter.com/ZhuohaoZhang" target= "_blank"> @ZhuohaoZhang</a>
 * Photo taken at CHI 2019
 </div>
 
@@ -40,7 +41,7 @@ I am interested in integrating human intellect to solve real-world accessibility
 </div>
 <a href="{{ "/projects/" | relative_url }}" class="button">
   <i class="fas fa-chevron-circle-right"></i>
-  Show More Projects
+  Show All Projects
 </a>
 
 ## Selected <a href="{{ "/publications/" | relative_url }}">Publications</a>
