@@ -3,6 +3,11 @@
   start: 2021-10-18
   end: 2021-10-22
 
+- title: SOUPS 2021
+  where: Online
+  start: 2021-08-08
+  end: 2021-08-10
+
 - title: Roadtrip from Champaign, IL to Seattle, WA
   where: I-90 Highway
   start: 2021-07-22
@@ -10,8 +15,8 @@
 
 - title: Adobe Research HCI Seminar
   where: Online
-  start: 2021-08-03
-  end: 2021-08-03
+  start: 2020-08-03
+  end: 2020-08-03
 
 - title: CHI 2019
   where: Glasgow, UK
