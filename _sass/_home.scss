@@ -18,11 +18,12 @@
     }
 
     .me {
-      margin-left: $spacing-unit;
+      margin-right: $spacing-unit;
       margin-bottom: $spacing-unit;
+      margin-top: $spacing-unit;
 
       font-size: 0.9em;
-      text-align: center;
+      text-align: right;
 
       picture, img {
         width: 220px;
@@ -196,6 +197,7 @@
       .me {
         order: 1;
         margin-left: 0;
+        text-align: center;
       }
     }
 
