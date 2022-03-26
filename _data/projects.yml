@@ -1,12 +1,13 @@
 - title: CollabAlly
   # url: https://uwdata.github.io/draco
   code: https://github.com/HumanAILab/CollabAlly
-  video: https://www.youtube.com/watch?v=hYvAZofLSjU
-  # recording:
+  video: https://www.youtube.com/watch?v=s5bcZQlmbzE
+  recording: https://www.youtube.com/watch?v=WK_8cPMVtuA
+  preview: https://www.youtube.com/watch?v=NSgFM8P9lOY
   image: collabally.png
   article: https://dl.acm.org/doi/10.1145/3495270
   description: "Making collaborative document editing accessible for screen reader users by centralizing scattered information, sonifying visual information, and simplifying complex operations."
-  paper: https://www.zhuohaozhang.com
+  paper: https://guoanhong.com/papers/CHI22-CollabAlly.pdf
   demo: https://dl.acm.org/doi/10.1145/3441852.3476562
   highlight: 1
 

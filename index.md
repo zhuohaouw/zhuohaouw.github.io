@@ -50,7 +50,7 @@ I am interested in integrating human intellect to solve real-world accessibility
   {% assign sorted_publications = site.publications | sort: 'year' | reverse %}
   {% for pub in sorted_publications %}
     {% if pub.highlight %}
-      <a href="{{ pub.pdf }}" class="publication">
+      <a href="{{ pub.pdf }}" class="publication" target="_blank">
         <strong>{{ pub.title }}</strong><br/>
         <span class="authors">{% for author in pub.authors %}{{ author }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>. <br/>
         <i>{% if pub.venue %}{{ pub.venue }}, {% endif %}{{ pub.year }}</i>.
