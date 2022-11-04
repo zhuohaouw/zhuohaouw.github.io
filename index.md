@@ -22,14 +22,17 @@ class: home
 </div>
 
 <div class="intro" markdown="1">
-My name is Zhuohao (Jerry) Zhang (Chinese: 张倬豪). I am currently a Ph.D. student at University of Washington, focusing on HCI and Accessibility. I am fortunate to work with [Prof. Jacob Wobbrock](https://faculty.washington.edu/wobbrock/){:target="_blank"} at [ACE Lab](http://depts.washington.edu/acelab/index.html){:target="_blank"}. I obtained my Master of Science degree in CS from University of Illinois Urbana-Champaign, where I worked with [Prof. Yang Wang](http://yangwang.ischool.illinois.edu/){:target="_blank"} at [SALT Lab](https://socialcomputing.web.illinois.edu/){:target="_blank"}. I also worked closely with [Prof. Sauvik Das](https://sauvikdas.com/){:target="_blank"} at Georgia Tech, [Prof. Shiri Azenkot](http://shiriazenkot.com/){:target="_blank"} at Cornell Tech, and [Prof. Yingcai Wu](http://www.ycwu.org/){:target="_blank"} at Zhejiang University, where I obtained my Bachelor's degree in CS. 
+My name is Zhuohao (Jerry) Zhang (Chinese: 张倬豪). I am currently a Ph.D. student at University of Washington, focusing on HCI and Accessibility. I am fortunate to work with [Prof. Jacob Wobbrock](https://faculty.washington.edu/wobbrock/){:target="_blank"} at the [ACE Lab](http://depts.washington.edu/acelab/index.html){:target="_blank"}. I obtained my Master of Science degree in CS from the University of Illinois, Urbana-Champaign, where I worked with [Prof. Yang Wang](http://yangwang.ischool.illinois.edu/){:target="_blank"} at the [SALT Lab](https://socialcomputing.web.illinois.edu/){:target="_blank"}, and my Bachelor's degree in CS from Zhejiang University, China. I also worked as a research scientist intern at Meta Reality Labs and Adobe Research.
+<!-- I also worked closely with [Prof. Sauvik Das](https://sauvikdas.com/){:target="_blank"} at CMU, [Prof. Shiri Azenkot](http://shiriazenkot.com/){:target="_blank"} at Cornell Tech, and [Prof. Yingcai Wu](http://www.ycwu.org/){:target="_blank"} at Zhejiang University, where I obtained my Bachelor's degree in CS.  -->
 
-I am interested in integrating human intellect to solve real-world accessibility problems when AI is not a perfect solution. The specific user groups I have been targeting on are people with visual impairments and people with no technical backgrounds but need to engage in novel techniques. Recently, I am working on making creative workspaces accessible for blind people.
+I am interested in addressing real-world accessibility problems using multi-modal interaction techniques and human-AI collaboration. Recently, I am working on designing intelligent interactive systems to make blind people from consumers to creators of digital content and technology.
+<!-- The specific user groups I have been targeting on include people with visual impairments and people with no technical backgrounds but need to engage in novel technologies.  -->
+<!-- integrating human intellect to solve real-world accessibility problems when AI is not a perfect solution.  -->
 </div>
 
 </div>
 
-## <a href="{{ "/projects/" | relative_url }}">Projects</a>
+## Selected <a href="{{ "/projects/" | relative_url }}">Projects</a>
 
 <div class="featured-projects">
   {% assign sorted_projects = site.data.projects | sort: 'highlight' %}

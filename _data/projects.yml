@@ -1,3 +1,11 @@
+- title: A11yBoard
+  # url: https://uwdata.github.io/draco
+  image: a11yboard-interface.jpg
+  demo: https://dl.acm.org/doi/abs/10.1145/3526114.3558695
+  poster: https://drive.google.com/file/d/1hpx0khAJOLplFp2YkwvjaE5Qtb460j-S/view?usp=sharing
+  description: "Making digital 'artboards' accessible for blind users to both interpret and author by using multi-modal interaction techniques."
+  highlight: 1
+
 - title: CollabAlly
   # url: https://uwdata.github.io/draco
   code: https://github.com/HumanAILab/CollabAlly
@@ -9,7 +17,7 @@
   description: "Making collaborative document editing accessible for screen reader users by centralizing scattered information, sonifying visual information, and simplifying complex operations."
   paper: https://guoanhong.com/papers/CHI22-CollabAlly.pdf
   demo: https://dl.acm.org/doi/10.1145/3441852.3476562
-  highlight: 1
+  highlight: 2
 
 # - title: ImageAlly
 #   url: https://uwdata.github.io/draco
@@ -42,7 +50,7 @@
   description: "Interactive 3D printed models with a mobile App and computer vision technology designed as learning materials for students with visual impairments."
   demo: https://dl.acm.org/doi/10.1145/3234695.3241004
   paper: https://dl.acm.org/doi/10.1145/3290605.3300427
-  highlight: 4
+  # highlight: 4
 
 - title: GPK
   # recording: https://developer.apple.com/videos/play/wwdc2021/10122/
@@ -50,4 +58,3 @@
   description: "A novel typing technique for special symbol input in a physical keyboard-only environment. Users can use their fingers to physically glide over the surface with a 96.3% accuracy on the first two predicted symbols."
   paper: https://dl.acm.org/doi/10.1145/3290607.3308457
   poster: https://drive.google.com/file/d/1f2C561diu7y9jLE7T8vewf476O4lapHs/view?usp=sharing
-  highlight: 4
