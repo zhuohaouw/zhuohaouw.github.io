@@ -3,6 +3,7 @@
   image: a11yboard-interface.jpg
   demo: https://dl.acm.org/doi/abs/10.1145/3526114.3558695
   poster: https://drive.google.com/file/d/1hpx0khAJOLplFp2YkwvjaE5Qtb460j-S/view?usp=sharing
+  paper: https://zhuohaozhang.com/a11yboard.pdf
   description: "Making digital 'artboards' accessible for blind users to both interpret and author by using multi-modal interaction techniques."
   highlight: 1
 
