@@ -13,11 +13,23 @@
     {% if project.paper %}
       <a href="{{ project.paper }}" target="_blank"><i class="far fa-file-pdf" aria-hidden="true"></i> Paper</a>
     {% endif %}
+    {% if project.paper1 %}
+      <a href="{{ project.paper1 }}" target="_blank"><i class="far fa-file-pdf" aria-hidden="true"></i> Paper[1]</a>
+    {% endif %}
+    {% if project.paper2 %}
+      <a href="{{ project.paper2 }}" target="_blank"><i class="far fa-file-pdf" aria-hidden="true"></i> Paper[2]</a>
+    {% endif %}
     {% if project.demo %}
       <a href="{{ project.demo }}" target="_blank"><i class="fas fa-file" aria-hidden="true"></i> Demo</a>
     {% endif %}
     {% if project.code %}
       <a href="{{ project.code }}" target="_blank"><i class="fab fa-github" aria-hidden="true" aria-hidden="true"></i> Code</a>
+    {% endif %}
+    {% if project.code1 %}
+      <a href="{{ project.code1 }}" target="_blank"><i class="fab fa-github" aria-hidden="true" aria-hidden="true"></i> Code[1]</a>
+    {% endif %}
+    {% if project.code2 %}
+      <a href="{{ project.code2 }}" target="_blank"><i class="fab fa-github" aria-hidden="true" aria-hidden="true"></i> Code[2]</a>
     {% endif %}
     {% if project.url %}
       <a href="{{ project.url }}" target="_blank"><i class="fas fa-link" aria-hidden="true" aria-hidden="true"></i> Website</a>
@@ -31,11 +43,23 @@
     {% if project.recording %}
       <a href="{{ project.recording }}" target="_blank"><i class="fas fa-video" aria-hidden="true"></i> Recording</a>
     {% endif %}
+    {% if project.recording1 %}
+      <a href="{{ project.recording1 }}" target="_blank"><i class="fas fa-video" aria-hidden="true"></i> Recording[1]</a>
+    {% endif %}
+    {% if project.recording2 %}
+      <a href="{{ project.recording2 }}" target="_blank"><i class="fas fa-video" aria-hidden="true"></i> Recording[2]</a>
+    {% endif %}
     {% if project.preview %}
       <a href="{{ project.preview }}" target="_blank"><i class="fas fa-camera" aria-hidden="true"></i> Preview</a>
     {% endif %}
     {% if project.slide %}
       <a href="{{ project.slide }}" target="_blank"><i class="fas fa-file-powerpoint" aria-hidden="true"></i> Slides</a>
+    {% endif %}
+    {% if project.slide1 %}
+      <a href="{{ project.slide1 }}" target="_blank"><i class="fas fa-file-powerpoint" aria-hidden="true"></i> Slides[1]</a>
+    {% endif %}
+    {% if project.slide2 %}
+      <a href="{{ project.slide2 }}" target="_blank"><i class="fas fa-file-powerpoint" aria-hidden="true"></i> Slides[2]</a>
     {% endif %}
     {% if project.poster %}
       <a href="{{ project.poster }}" target="_blank"><i class="fas fa-file-powerpoint" aria-hidden="true"></i> Poster</a>

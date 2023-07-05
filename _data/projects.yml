@@ -33,15 +33,16 @@
 #   description: "Define an accessible representation of your chart for VoiceOver to generate an audio graph."
 #   paper: https://www.zhuohaozhang.com
 
-- title: WebAlly
+- title: Project ATS
   # url: https://uwdata.github.io/draco
-  code: https://github.com/saltfishzzh/WebAlly
+  code1: https://github.com/saltfishzzh/WebAlly
   # video: https://developer.apple.com/videos/play/wwdc2021/10122/
-  recording: https://www.youtube.com/watch?v=RMqrhzlc2us
-  image: webally.png
-  description: "Designed an 'Assistive Transfer System' for blind people to solve CAPTCHAs. It sources accurate, remote, and just-in-time assistance from their trusted allies."
-  paper: https://www.usenix.org/system/files/soups2021-zhang-zhuohao.pdf
-  slide: https://www.usenix.org/system/files/soups2021_slides_zhang_zhuohao.pdf
+  recording1: https://www.youtube.com/watch?v=RMqrhzlc2us
+  image: ats.png
+  description: "Designed an 'Assistive Transfer System' (ATS) for blind people to achieve different tasks like solving complex visual CAPTCHAs and redact private information in pictures. It sources accurate, remote, and just-in-time assistance from their trusted allies."
+  paper1: https://www.usenix.org/system/files/soups2021-zhang-zhuohao.pdf
+  slide1: https://www.usenix.org/system/files/soups2021_slides_zhang_zhuohao.pdf
+  paper2: imageally.pdf
   highlight: 3
 
 - title: Talkit++
