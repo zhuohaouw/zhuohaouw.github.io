@@ -12,6 +12,7 @@ venue: ASSETS
 venue_location: New York, NY
 venue_tags:
   - ASSETS
+pdf: "/a11yboard-assets.pdf"
 highlight: true
 ---
 
