@@ -12,13 +12,12 @@ class: home
 <picture>
   <img
     src='/images/zhuohao.jpg'
-    alt='Zhuohao (Jerry) Zhang at CHI 2019 standing in front of a poster, wearing a black sweater.'>
+    alt='Jerry at the Rattlesnake Ledge trail, wearing a black hoodie and smiling to the camera.'>
 </picture>
 
 {:.no-list}
 * <i class="fas fa-envelope" aria-hidden="true"></i> zhuohao [at] uw.edu
 * <i class="fab fa-twitter" aria-hidden="true"></i> <a href="https://twitter.com/ZhuohaoZhang" target= "_blank"> @ZhuohaoZhang</a>
-* Photo taken at CHI 2019
 </div>
 
 <div class="intro" markdown="1">
