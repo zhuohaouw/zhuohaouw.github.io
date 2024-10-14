@@ -4,7 +4,7 @@ year: 2024
 title: "OmniQuery: Enabling Question Answering on Personal Memory by Augmenting Multimodal Album Data"
 authors:
   - Jiahao Li
-  - Zhuohao Zhang
+  - Zhuohao (Jerry) Zhang
   - Jiaju Ma
 type:
   - Conference

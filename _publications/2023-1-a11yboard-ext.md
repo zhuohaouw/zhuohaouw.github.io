@@ -3,7 +3,7 @@ layout: publication
 year: 2023
 title: "Developing and Deploying a Real-World Solution for Accessible Slide Reading and Authoring for Blind Users"
 authors:
-  - Zhuohao Zhang
+  - Zhuohao (Jerry) Zhang
   - Gene S. Kim
   - Jacob O. Wobbrock
 type:

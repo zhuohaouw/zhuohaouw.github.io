@@ -4,7 +4,7 @@ year: 2024
 title: "OmniQuery: Contextually Augmenting Captured Multimodal Memory to Enable Personal Question Answering"
 authors:
   - Jiahao Li
-  - Zhuohao Zhang
+  - Zhuohao (Jerry) Zhang
   - Jiaju Ma
 pdf: "https://arxiv.org/pdf/2409.08250"
 ---
